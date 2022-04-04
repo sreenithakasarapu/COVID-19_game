@@ -1,1 +1,3 @@
 # COVID-19_game
+The implementation of the COVID-19 game on all the 50 states requires a massive amount of memory and time; when performed on CPU, it took %\textcolor{red}{xyz} 
+30 hours to perform the game theory and graph algorithm-based combined confinement. Thus, we used Tesla P100-PCIE-16GB GPU available in Google Colab Pro to perform the restricted mobility and make it run fast. We used the high-RAM setting of the google colab to provide the higher memory required by the experiment. The high-RAM setting provides a maximum GPU RAM of 26GB. It took almost two hours to run the experiment for all the 50 states data. We used Neo4j browser to create graph database and apply graph algorithm.
